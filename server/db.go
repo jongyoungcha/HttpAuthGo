@@ -23,7 +23,7 @@ type SignUpLog struct {
 
 
 func NewDynamoDB() {
-	db := dynamo.New(session.New(), &aws.Config{Region: aws.String("us-west-2")})
+	// db := dynamo.New(session.New(), &aws.Config{Region: aws.String("us-west-2")})
 }
 
 
